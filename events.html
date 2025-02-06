@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFNHS Events</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
+</head>
+<body>
+    <!-- Hamburger Menu Button -->
+    <div id="mobile-menu" class="mobile-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <!-- Scroll-to-Top Button -->
+    <button id="backToTop" class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">MFNHS</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="newsroom.html">Newsroom</a>
+            <a href="alumni.html">Alumni</a>
+            <a href="academics.html">Academics</a>
+            <a href="about.html">About</a>
+            <a href="campus-life.html">Campus Life</a>
+        </div>
+    </nav>
+
+    <div class="running-header">
+        Explore our latest events and activities at MFNHS.
+    </div>
+
+    <!-- Events Section -->
+    <section class="events-section">
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab(event, 'treePlanting')">Tree Planting</button>
+            <button class="tab-button" onclick="openTab(event, 'symposium')">Symposium</button>
+            <button class="tab-button" onclick="openTab(event, 'athleticMeet')">Municipal Athletic Meet</button>
+        </div>
+
+        <div id="treePlanting" class="tab-content active">
+            <h2>Tree Planting</h2>
+            <img src="images/treeplanting.jpg" alt="Tree Planting" class="display-image">
+            <p>Join our environmental efforts by participating in tree planting activities.</p>
+            <a href="https://www.facebook.com/permalink.php?story_fbid=pfbid02yVhH6RSy2yMHva2PtjH3vmtzPkPyvtafFdvPi22ty1jdvDgrwxCKCfCKdg6okLi9l&id=100078970764982" class="learn-more">Learn more</a>
+        </div>
+
+        <div id="symposium" class="tab-content">
+            <h2>Symposium</h2>
+            <img src="images/drugabuse.jpg" alt="Symposium" class="display-image">
+            <p>Engage in informative discussions and learn from our expert speakers.</p>
+            <a href="https://www.facebook.com/permalink.php?story_fbid=pfbid0hg1ArdJwNhJujtvDfKaTRSjp4q5xVoVhRUcupQmLyoFHiBtFZDjCNr4K9baEhYjPl&id=61556713693541" class="learn-more">Learn more</a>
+        </div>
+
+        <div id="athleticMeet" class="tab-content">
+            <h2>Municipal Athletic Meet</h2>
+            <img src="images/athleticmeet.jpg" alt="Athletic Meet" class="display-image">
+            <p>Showcase your athletic skills and cheer for your favorite teams!</p>
+            <a href="https://www.facebook.com/permalink.php?story_fbid=pfbid02UeGYNweMdHZRFQmdUbFAYmuZ6YCQh8EcTEGeQzYHK2dbCo7FgEHdGS52vFAWo19Pl&id=61556713693541" class="learn-more">Learn more</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/ManoloFortichNHSOfficial" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png" alt="Facebook">
+            </a>
+            <a href="mailto:ManoloNHS2016@gmail.com">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/gmail.png" alt="Gmail">
+            </a>
+        </div>
+        <p>&copy; 2025 MFNHS. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

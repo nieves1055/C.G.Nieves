@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFNHS Alumni</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="styles.css"> 
+    <script defer src="script.js"></script> 
+</head>
+<body>
+    <!-- Hamburger Menu Button (visible on mobile) -->
+    <div id="mobile-menu" class="mobile-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <!-- Scroll-to-Top Button -->
+    <button id="backToTop" class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">MFNHS</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="newsroom.html">Newsroom</a>
+            <a href="alumni.html" class="active">Alumni</a>
+            <a href="academics.html">Academics</a>
+            <a href="about.html">About</a>
+            <a href="campus-life.html">Campus Life</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="alumni-hero" class="hero">
+        <div class="hero-content">
+            <h1>MFNHS Alumni Association</h1>
+            <p>Reconnect, Relive, and Give Back</p>
+            <button id="joinNowBtn" onclick="openModal()">Join Now</button>
+        </div>
+    </section>
+
+    <div id="myModal1" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('myModal1')">&times;</span>
+            <h2>Join MFNHS Alumnis</h2>
+            <p>Be a part of the MFNHS alumni network to stay updated, participate in events, and give back to the school. Fill out our quick form to register.</p>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="batch">Batch Year:</label>
+                <input type="number" id="batch" name="batch" required>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    
+
+    <!-- Downloadable Forms -->
+    <section id="downloadable-forms" class="downloadable-forms">
+        <h2>Downloadable Forms</h2>
+        <div class="forms-container">
+            <div class="form-item">
+                <a href="downloadables/GOOD MORAL FORMS.docx">
+                    <div class="form-icon">📄</div>
+                    <span>Good Moral Certificate</span>
+                </a>
+                <button onclick="downloadFile('downloadables/GOOD MORAL FORMS.docx')">Download</button>
+            </div>
+            <div class="form-item">
+                <a href="downloadables/Appendix-59-Inventory-Custodian-Slip.xls">
+                    <div class="form-icon">📄</div>
+                    <span>Custodian Slip</span>
+                </a>
+                <button onclick="downloadFile('downloadables/Appendix-59-Inventory-Custodian-Slip.xls')">Download</button>
+            </div>
+            <div class="form-item">
+                <a href="downloadables/Certificate-for-Honors.pub">
+                    <div class="form-icon">📄</div>
+                    <span>Certificate of Perfect Attendance</span>
+                </a>
+                <button onclick="downloadFile('downloadables/Certificate-for-Honors.pub')">Download</button>
+            </div>
+            <div class="form-item">
+                <a href="downloadables/BORROWERS CARD.docx">
+                    <div class="form-icon">📄</div>
+                    <span>Borrower’s Card</span>
+                </a>
+                <button onclick="downloadFile('downloadables/BORROWERS CARD.docx')">Download</button>
+            </div>
+            <div class="form-item">
+                <a href="downloadables/Creative-Technology-CG-1.pdf">
+                    <div class="form-icon">📄</div>
+                    <span>Technology Curriculum Guide</span>
+                </a>
+                <button onclick="downloadFile('downloadables/Creative-Technology-CG-1.pdf')">Download</button>
+            </div>
+            <div class="form-item">
+                <a href="downloadables/AP - Curriculum Guide.pdf">
+                    <div class="form-icon">📄</div>
+                    <span>Araling Panlipunan Curriculum Guide</span>
+                </a>
+                <button onclick="downloadFile('downloadables/AP - Curriculum Guide.pd')">Download</button>
+            </div>
+            <div class="form-item">
+                <a href="downloadables/Certificate-for-Honors.pub">
+                    <div class="form-icon">📄</div>
+                    <span>Honors Certificate</span>
+                </a>
+                <button onclick="downloadFile('downloadables/Certificate-for-Honors.pub')">Download</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/ManoloFortichNHSOfficial" target="_blank"> 
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png" alt="Facebook" />
+            </a>
+            <a href="mailto:ManoloNHS2016@gmail.com">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/gmail.png" alt="Gmail" />
+            </a>
+        </div>
+        <p>&copy; 2025 MFNHS. All rights reserved.</p>
+    </footer>

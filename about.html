@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About MFNHS</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
+</head>
+<body>
+    <!-- Hamburger Menu Button (visible on mobile) -->
+<div id="mobile-menu" class="mobile-menu">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+
+<!-- Scroll-to-Top Button -->
+<button id="backToTop" class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">MFNHS</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="newsroom.html">Newsroom</a>
+            <a href="alumni.html">Alumni</a>
+            <a href="academics.html">Academics</a>
+            <a href="about.html">About</a>
+            <a href="campus-life.html">Campus Life</a>
+        </div>
+    </nav>
+
+    <div class="running-header">
+        Get to learn more about Manolo Fortich National Highschool.
+    </div>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab(event, 'history')">School History</button>
+            <button class="tab-button" onclick="openTab(event, 'almaMater')">Alma Mater Song</button>
+            <button class="tab-button" onclick="openTab(event, 'mission')">Mission</button>
+            <button class="tab-button" onclick="openTab(event, 'vision')">Vision</button>
+            <button class="tab-button" onclick="openTab(event, 'orgChart')">Organizational Chart</button>
+        </div>
+
+        <div id="history" class="tab-content active">
+            <h2>School History</h2>
+            <p>Manolo Fortich National High School (MFNHS) is located in the Province of Bukidnon, Philippines. The school's history began with its founding, marking the start of its educational journey. Over time, the Dalirig Annex of MFNHS was separated from the main school and established as an independent institution, now known as Dalirig National High School. A significant milestone in the school's development occurred in February 2024, when MFNHS entered into a partnership with Northern Bukidnon State College. This collaboration resulted in the signing of a Memorandum of Agreement (MOA) for a Senior High School Work Immersion Program. The program is designed to provide students with opportunities to enhance their skills, work ethics, and explore potential career paths.
+
+
+
+
+
+
+            </p>
+        </div>
+
+        <div id="almaMater" class="tab-content">
+            <h2>Alma Mater Song</h2>
+            <p>
+                <strong>Alma Mater Song</strong>
+                <br><br>
+                Spotless Jewels of<br>
+                Manolo Fortich High<br>
+                We all love you<br>
+                Till we die<br><br>
+        
+                Oh! What a Bright Day<br>
+                With Weather so gay and fair<br>
+                There’s a great joy in our hearts<br>
+                And sweet music in the air<br><br>
+        
+                Cause we’re happy<br>
+                Oh! Mother so happy<br>
+                To be with you<br>
+                And learn from you<br>
+                From day to day<br><br>
+        
+                Man’lo Fortich High School<br>
+                Alma Mater Dear<br>
+                We are singing, do you hear<br>
+                Always loyal, faithful, ever true<br>
+                We all love you, there’s no other<br><br>
+        
+                May God on high<br>
+                Never make us sigh<br>
+                Always happy and never cry<br>
+                Spotless Jewels of<br>
+                Manolo Fortich High<br>
+                We all love you<br>
+                Till we die
+            </p>
+        </div>
+        
+        <div id="mission" class="tab-content">
+            <h2>Mission</h2>
+            <img src="images/mission.jpg" alt="Mission" class="display-image">
+        </div>
+
+        <div id="vision" class="tab-content">
+            <h2>Vision</h2>
+            <img src="images/vision.jpg" alt="Vision" class="display-image">
+        </div>
+
+        <div id="orgChart" class="tab-content">
+            <h2>Organizational Chart</h2>
+            <img src="images/org-chart.png" alt="Organizational Chart" class="responsive-image">
+        </div>
+    </section>
+
+     <!-- Footer -->
+     <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/ManoloFortichNHSOfficial" target="_blank"> 
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png" alt="Facebook" />
+            </a>
+            <a href="mailto:ManoloNHS2016@gmail.com">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/gmail.png" alt="Gmail" />
+            </a>
+        </div>
+        <p>&copy; 2025 MFNHS. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>

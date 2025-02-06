@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFNHS Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <!-- Hamburger Menu Button (visible on mobile) -->
+<div id="mobile-menu" class="mobile-menu">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+
+<!-- Scroll-to-Top Button -->
+<button id="backToTop" class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">MFNHS</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="newsroom.html">Newsroom</a> 
+            <a href="alumni.html">Alumni</a>
+            <a href="academics.html">Academics</a>
+            <a href="about.html">About</a>
+            <a href="campus-life.html">Campus Life</a>
+        </div>
+    </nav>
+
+    <!-- Running Header -->
+    <div class="running-header">
+        Welcome to Manolo Fortich National Highschool, Home of Spotless Jewels.
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="images/logo.png" alt="School Logo" class="logo"> <!-- Local logo image -->
+            <h1>Manolo Fortich National Highschool</h1>
+            <p>Home of Spotless Jewels</p>
+            <button id="learnMoreBtn" onclick="openModal()">Learn More</button>
+        </div>
+    </section>
+
+    <div id="myModal2" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('myModal2')">&times;</span>
+            <h2>More Information</h2>
+            <p>MFNHS was founded in 1963, with the vision of providing a nurturing and challenging educational environment. From its humble beginnings with a small number of students and teachers, it has grown into a reputable institution known for academic excellence and holistic development.</p>
+            
+            <p>Throughout the years, we have achieved numerous milestones. We have consistently produced top-performing students in national examinations and have been recognized for our excellence in various fields, including sports, arts, and sciences. Our alumni have gone on to excel in various professions, contributing positively to society and embodying the values instilled in them during their time here.</p>
+        
+            <p>The success of our school is not just measured by academic achievements but also by the strong sense of community and culture that we have cultivated. Our school values inclusivity, respect, and integrity, and these principles are evident in our daily interactions. Students, teachers, and staff work together to create a supportive and dynamic learning environment.</p>
+        
+            <p>In the past 61 years, MFNHS has continually adapted to changes in the educational landscape. We have embraced new technologies, updated our curriculum, and introduced innovative teaching methods to ensure that our students are well-prepared for the future. Our commitment to continuous improvement is unwavering.</p>
+        
+        </div>
+    </div>
+    
+    
+    <!-- Placeholder for Image Gallery -->
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="images/1.jpg" alt="Gallery Image 1"> 
+            <img src="images/2.jpg" alt="Gallery Image 2"> 
+            <img src="images/3.jpg" alt="Gallery Image 3"> 
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial">
+            <p>"Lahi ragud diay ang MFNHS!" - G11 SHS Student</p>
+        </div>
+        <div class="testimonial">
+            <p>"Wako nag mahay na diri ko ni skwela." - G7 JHS Student</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/ManoloFortichNHSOfficial" target="_blank"> 
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png" alt="Facebook" />
+            </a>
+            <a href="mailto:ManoloNHS2016@gmail.com">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/gmail.png" alt="Gmail" />
+            </a>
+        </div>
+        <p>&copy; 2025 MFNHS. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>
